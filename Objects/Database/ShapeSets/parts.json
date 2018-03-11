@@ -1,0 +1,51 @@
+{
+   "partList" : [
+   
+   //Moonbo
+   {
+			"uuid": "d54b6ae6-9675-4517-881e-f7a0fc0c27a4", //Moonbo Ball Moon
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList" : [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/MoonboLogo_dif.png",
+									"$MOD_DATA/Objects/Textures/MoonboLogo_asg.png",
+									"$MOD_DATA/Objects/Textures/MoonboLogo_nor.png"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/MoonboMoon.obj"
+					}
+				]
+			},
+			"color": "F1F1F1",
+			"hull": { 
+				"x": 3, "y": 3, "z": 3,
+				"margin": 1.5,
+				"pointList": [
+					{ "x": 0.0, "y": 0.0, "z": 0.0 }
+				]
+			},
+			"rotationSet": "PropFull"
+			}
+   
+   
+   
+   //ScrapMan
+   
+   
+   
+   //Camodo
+   
+   
+   
+   //kAN
+   
+   
+   
+   
+   ]
+}
