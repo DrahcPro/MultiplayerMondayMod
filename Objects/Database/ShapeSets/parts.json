@@ -30,7 +30,7 @@
 				]
 			},
 			"rotationSet": "PropFull"
-			}
+			},
    
    
    
@@ -44,7 +44,29 @@
    
    //kAN
    
-   
+   {
+			"uuid": "d54b6ae6-9675-4517-881e-f7a0fc0c27a4", //kAN can
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList" : [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/kANlogo_dif.png",
+									"$MOD_DATA/Objects/Textures/kANlogo_asg.png",
+									"$MOD_DATA/Objects/Textures/kANlogo_nor.png"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/kANcan.obj"
+					}
+				]
+			},
+			"color": "F1F1F1",
+			"cylinder": { "diameter": 3, "depth": 2, "axis": "y" },
+			"rotationSet": "PropFull"
+			}
    
    
    ]
