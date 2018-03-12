@@ -1,4 +1,14 @@
 # Exported from Wings 3D 2.1.5
+newmtl Cylinder4_auv
+Ns 90.0
+d 1.0
+illum 2
+Kd 1.0 1.0 1.0
+Ka 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+Ke 0.0 0.0 0.0
+map_Kd Cylinder4_auv.png
+
 newmtl Tube1_auv
 Ns 90.0
 d 1.0
@@ -9,12 +19,23 @@ Ks 0.0 0.0 0.0
 Ke 0.0 0.0 0.0
 map_Kd Tube1_auv.png
 
-newmtl default
-Ns 0.0
+newmtl Tube2_auv
+Ns 90.0
 d 1.0
 illum 2
-Kd 0.7898538076923077 0.8133333333333334 0.6940444444444445
-Ka 0.7898538076923077 0.8133333333333334 0.6940444444444445
+Kd 1.0 1.0 1.0
+Ka 1.0 1.0 1.0
 Ks 0.0 0.0 0.0
 Ke 0.0 0.0 0.0
+map_Kd Tube2_auv.png
+
+newmtl Tube2_copy3_auv
+Ns 90.0
+d 1.0
+illum 2
+Kd 1.0 1.0 1.0
+Ka 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+Ke 0.0 0.0 0.0
+map_Kd Tube2_copy3_auv.png
 
