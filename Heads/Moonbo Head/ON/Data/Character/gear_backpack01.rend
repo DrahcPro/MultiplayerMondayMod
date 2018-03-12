@@ -1,0 +1,26 @@
+{
+    "lodList": [
+		{
+		    "mesh": 		"$GAME_DATA/Character/Mod/char_mod.obj",
+		    "subMeshList": [
+				{
+				    "textureList":	[
+						"$GAME_DATA/Character/Mod/char_mod_dif.tga",
+						"$GAME_DATA/Character/Mod/char_mod_asg.tga",
+						"$GAME_DATA/Character/Mod/char_mod_nor.tga"
+				    ],
+					"color":		"ffffff",
+					"material": {
+					    "hlsl": {
+							"shader":		"$GAME_DATA/Shaders/hlsl/bone_animated_mesh.hlsl",
+							"vs":			"mainVS",
+							"ps":			"mainDifAsgNor",
+							"defines":		[ "NO_ANIMATION" ]
+					    }
+					}
+				}
+		    ],
+		    "maxViewDistance": 1000.0
+		}
+    ]
+}
