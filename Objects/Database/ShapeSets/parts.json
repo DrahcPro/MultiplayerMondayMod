@@ -31,6 +31,32 @@
 			},
 			"rotationSet": "PropFull"
 			},
+			{
+			"uuid": "1890cbba-2677-4aa7-f038-22a48eb2bada",
+			"renderable": {
+				"lodList": [
+						{
+						"subMeshList": [
+								{
+								"textureList": [
+										"$MOD_DATA/Objects/Textures/hood_ornament_moonbo.png",
+										"$MOD_DATA/Objects/Textures/hood_ornament.png",
+										"$MOD_DATA/Objects/Textures/MoonboLogo_nor.png"
+										],
+								"material": "DifAsgNor"
+								}
+								],
+						"mesh": "$MOD_DATA/Objects/Mesh/hood_ornament_moonbo.obj"
+						}
+						]
+					},
+			"rotationSet": "PropY",
+			"density": 250.0,
+			"color": "818181",
+			"physicsMaterial": "Metal",
+			"box": { "x": 1, "y":1, "z": 1 },
+			"sticky": "-Y"
+			},
    
    
    
@@ -66,6 +92,32 @@
 			"color": "F1F1F1",
 			"cylinder": { "diameter": 3, "depth": 2, "axis": "Y" },
 			"rotationSet": "PropFull"
+			},
+			{
+			"uuid": "29ccf944-f58e-4eb2-c6d8-276679433198",
+			"renderable": {
+					"lodList": [
+							{
+							"subMeshList": [
+									{
+									"textureList": [
+											"$MOD_DATA/Objects/Textures/hood_ornament_moonbo.png",
+											"$MOD_DATA/Objects/Textures/hood_ornament.png",
+											"$MOD_DATA/Objects/Textures/MoonboLogo_nor.png"
+											],
+									"material": "DifAsgNor"
+									}
+									],
+							"mesh": "$MOD_DATA/Objects/Mesh/hood_ornament_kan.obj"
+							}
+						]
+					},
+			"rotationSet": "PropY",
+			"density": 250.0,
+			"color": "818181",
+			"physicsMaterial": "Metal",
+			"box": { "x": 1, "y":1, "z": 1 },
+			"sticky": "-Y"
 			}
    
    
