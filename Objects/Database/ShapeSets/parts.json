@@ -61,7 +61,29 @@
    
    
    //ScrapMan
-   
+   {
+   "uuid": "83370e74-2be3-4110-b7a7-3dc242a275c6", //scrapman gear
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList" : [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/scrapman_logo.png",
+									"$MOD_DATA/Objects/Textures/scrapman_logo_asg.png",
+									"$MOD_DATA/Objects/Textures/scrapman_logo_nor.png"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/ScrapManGear.obj"
+					}
+				]
+			},
+			"color": "F1F1F1",
+			"cylinder": { "diameter": 3, "depth": 2, "axis": "Z" },
+			"rotationSet": "PropFull"
+			},
    
    
    //Camodo
