@@ -1,0 +1,26 @@
+{
+    "lodList": [
+		{
+		    "mesh": 		"$GAME_DATA/Character/Mesh/gear_backpack01.mesh",
+		    "subMeshList": [
+				{
+				    "textureList":	[
+						"$GAME_DATA/Character/Textures/Gear/char_male_backpack01_dif.tga",
+						"$GAME_DATA/Character/Textures/Gear/char_male_backpack01_asg.tga",
+						"$GAME_DATA/Character/Textures/Gear/char_male_backpack01_nor.tga"
+				    ],
+					"color":		"ffffff",
+					"material": {
+					    "hlsl": {
+							"shader":		"$GAME_DATA/Shaders/hlsl/bone_animated_mesh.hlsl",
+							"vs":			"mainVS",
+							"ps":			"mainDifAsgNor",
+							"defines":		[ "NO_ANIMATION" ]
+					    }
+					}
+				}
+		    ],
+		    "maxViewDistance": 1000.0
+		}
+    ]
+}
