@@ -84,6 +84,32 @@
 			"cylinder": { "diameter": 3, "depth": 2, "axis": "Z" },
 			"rotationSet": "PropFull"
 			},
+			{
+										"uuid": "e8f19e16-cc21-4c40-9360-d03aeb3c63cc",
+										"renderable": {
+											"lodList": [
+												{
+													"subMeshList": [
+														{
+															"textureList": [
+																"$MOD_DATA/Objects/Textures/hood_ornament_moonbo.png",
+																"$MOD_DATA/Objects/Textures/hood_ornament.png",
+																"$MOD_DATA/Objects/Textures/MoonboLogo_nor.png"
+															],
+															"material": "DifAsgNor"
+														}
+													],
+													"mesh": "$MOD_DATA/Objects/Mesh/hood_ornament_scrapman.obj"
+												}
+											]
+										},
+										"rotationSet": "PropY",
+										"density": 250.0,
+										"color": "818181",
+										"physicsMaterial": "Metal",
+										"box": { "x": 1, "y":1, "z": 1 },
+										"sticky": "-Y"
+		},
    
    
    //Camodo
