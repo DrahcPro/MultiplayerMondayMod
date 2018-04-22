@@ -1,0 +1,100 @@
+{
+    "assetListRenderable": [
+        {
+		            "col": "$GAME_DATA/Terrain/Collision/Manmade/env_manmade_billboard01_col.obj",
+		            "defaultColors": {
+		                "stripe": "8ad2d9"
+		            },
+		            "name": "env_manmade_billboard01",
+		            "physics": {
+		                "mass": 20000,
+		                "material": "Metal"
+		            },
+		            "renderable": {
+		                "lodList": [
+		                    {
+		                        "maxViewDistance": 85,
+		                        "mesh": "$GAME_DATA/Terrain/Mesh/Manmade/env_manmade_billboard01.mesh",
+		                        "subMeshList": [
+		                            {
+		                                "custom": {},
+		                                "material": "DifAlphaFlip",
+		                                "textureList": [
+		                                    "$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboardlampshade_dif.tga",
+		                                    "",
+		                                    ""
+		                                ]
+		                            },
+		                            {
+		                                "custom": {
+		                                    "color": "frames"
+		                                },
+		                                "material": "DifAsgNor",
+		                                "textureList": [
+		                                    "$MOD_DATA/Textures/Crew_bilboard.png",
+		                                    "$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboard01_asg.tga",
+		                                    "$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboard01_nor.tga"
+		                                ]
+		                            }
+		                        ]
+		                    },
+		                    {
+		                        "maxViewDistance": 250,
+		                        "mesh": "$GAME_DATA/Terrain/Mesh/Manmade/env_manmade_billboard01_lod1.fbx",
+		                        "subMeshList": [
+		                            {
+		                                "custom": {},
+		                                "material": "DifAlphaFlip",
+		                                "textureList": [
+		                                    "$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboardlampshade_dif.tga",
+		                                    "",
+		                                    ""
+		                                ]
+		                            },
+		                            {
+		                                "custom": {
+		                                    "color": "frames"
+		                                },
+		                                "material": "DifAsgNor",
+		                                "textureList": [
+		                                    "$MOD_DATA/Textures/Crew_bilboard.png",
+		                                    "$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboard01_asg.tga",
+		                                    "$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboard01_nor.tga"
+		                                ]
+		                            }
+		                        ]
+		                    },
+		                    {
+		                        "maxViewDistance": 2500,
+		                        "mesh": "$GAME_DATA/Terrain/Mesh/Manmade/env_manmade_billboard01_lod2.fbx",
+		                        "subMeshList": [
+		                            {
+		                                "custom": {},
+		                                "material": "DifAlphaFlip",
+		                                "textureList": [
+		                                    "$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboardlampshade_dif.tga",
+		                                    "",
+		                                    ""
+		                                ]
+		                            },
+		                            {
+		                                "custom": {
+		                                    "color": "frames"
+		                                },
+		                                "material": "DifAsgNor",
+		                                "textureList": [
+		                                    "$MOD_DATA/Textures/Crew_bilboard.png",
+		                                    "$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboard01_asg.tga",
+		                                    "$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboard01_nor.tga"
+		                                ]
+		                            }
+		                        ]
+		                    }
+		                ]
+		            },
+		            "uuid": "dad5887a-4300-40c2-87ab-eea2acd0452e"
+        }
+
+
+    ]
+}

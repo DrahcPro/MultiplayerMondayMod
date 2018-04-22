@@ -1,0 +1,24 @@
+{
+    "assetSetList": [
+		{
+		    "assetSet": "$MOD_DATA/Database/AssetSets/Camodo2.json",
+		    "category": "Camodo"
+		},
+		{
+		"assetSet": "$MOD_DATA/Database/AssetSets/Kan.json",
+		"category": "Kan"
+		},
+		{
+				"assetSet": "$MOD_DATA/Database/AssetSets/Moonbo.json",
+				"category": "Moonbo"
+		},
+		{
+						"assetSet": "$MOD_DATA/Database/AssetSets/Scrap_Man.json",
+						"category": "ScrapMan"
+		},
+		{
+								"assetSet": "$MOD_DATA/Database/AssetSets/MMCrew.json",
+								"category": "MMCrew"
+		}
+    ]
+}
