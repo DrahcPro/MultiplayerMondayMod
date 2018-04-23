@@ -94,7 +94,7 @@
 															"textureList": [
 																"$MOD_DATA/Objects/Textures/hood_ornament.png",
 																"$MOD_DATA/Objects/Textures/hood_ornament.png",
-																"$MOD_DATA/Objects/Textures/MoonboLogo_nor.png"
+																"$MOD_DATA/Objects/Textures/scrapman_logo_nor.png"
 															],
 															"material": "DifAsgNor"
 														}
@@ -151,7 +151,7 @@
 									"textureList": [
 											"$MOD_DATA/Objects/Textures/hood_ornament_moonbo.png",
 											"$MOD_DATA/Objects/Textures/hood_ornament.png",
-											"$MOD_DATA/Objects/Textures/MoonboLogo_nor.png"
+											"$MOD_DATA/Objects/Textures/kANlogo_nor.png"
 											],
 									"material": "DifAsgNor"
 									}
