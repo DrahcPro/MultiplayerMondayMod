@@ -57,6 +57,42 @@
 			"box": { "x": 1, "y":1, "z": 1 },
 			"sticky": "-Y"
 			},
+			{
+				"uuid": "d11cfae3-1d65-478e-9387-256e363f1018",
+				"renderable": {
+					"lodList": [
+						{
+							"subMeshList": [
+								{
+									"textureList": [
+										"$MOD_DATA/Objects/Textures/DirectorChairMoonbo.png",
+										"$MOD_DATA/Objects/Textures/UniTex_asg.png"
+									],
+									"material": "DifAsg"
+								}
+							],
+							"mesh": "$MOD_DATA/Objects/Mesh/DirectorChair2.obj"
+						}
+					]
+				},
+				"rotationSet": "PropY",
+				"color": "313131",
+				"box": { "x": 3, "y": 5, "z": 3 },
+				"seat": {
+					"bones": [
+						{ "name": "Hips", "offset": { "x": 0.0, "y": 0.8, "z": 0.4 } },
+						{ "name": "LeftForeArm", "offset": { "x": 1.0, "y": 0.8, "z": 1.8 }, "freeRotation": true },
+						{ "name": "RightForeArm", "offset": { "x": -1.0, "y": 0.8, "z": 1.8 }, "freeRotation": true },
+						{ "name": "LeftLeg", "offset": { "x": 0.8, "y": 0.3, "z": 1.8 }, "freeRotation": true },
+						{ "name": "RightLeg", "offset": { "x": -0.8, "y": 0.3, "z": 1.8 }, "freeRotation": true }
+					],
+					"ragdollFile": "$GAME_DATA/Character/seat_ragdoll.json",
+					"enterAudio": "Seat seated",
+					"exitAudio": "Seat unseated"
+				},
+				"physicsMaterial": "Metal",
+				"sticky": "-Y"
+},
    
    
    
@@ -110,11 +146,82 @@
 										"box": { "x": 1, "y":1, "z": 1 },
 										"sticky": "-Y"
 		},
+		{
+			"uuid": "33685405-da0e-4956-805e-6fff6a3ce0f1",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/DirectorChairScrapMan.png",
+									"$MOD_DATA/Objects/Textures/UniTex_asg.png"
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/DirectorChair2.obj"
+					}
+				]
+			},
+			"rotationSet": "PropY",
+			"color": "d4d4d4",
+			"box": { "x": 3, "y": 5, "z": 3 },
+			"seat": {
+				"bones": [
+					{ "name": "Hips", "offset": { "x": 0.0, "y": 0.8, "z": 0.4 } },
+					{ "name": "LeftForeArm", "offset": { "x": 1.0, "y": 0.8, "z": 1.8 }, "freeRotation": true },
+					{ "name": "RightForeArm", "offset": { "x": -1.0, "y": 0.8, "z": 1.8 }, "freeRotation": true },
+					{ "name": "LeftLeg", "offset": { "x": 0.8, "y": 0.3, "z": 1.8 }, "freeRotation": true },
+					{ "name": "RightLeg", "offset": { "x": -0.8, "y": 0.3, "z": 1.8 }, "freeRotation": true }
+				],
+				"ragdollFile": "$GAME_DATA/Character/seat_ragdoll.json",
+				"enterAudio": "Seat seated",
+				"exitAudio": "Seat unseated"
+			},
+			"physicsMaterial": "Metal",
+			"sticky": "-Y"
+},
    
    
    //Camodo
    
-   
+   {
+	"uuid": "3c90343b-a240-42b7-9992-befac617a1d6",
+	"renderable": {
+		"lodList": [
+			{
+				"subMeshList": [
+					{
+						"textureList": [
+							"$MOD_DATA/Objects/Textures/DirectorChairCamodo.png",
+							"$MOD_DATA/Objects/Textures/UniTex_asg.png"
+						],
+						"material": "DifAsg"
+					}
+				],
+				"mesh": "$MOD_DATA/Objects/Mesh/DirectorChair2.obj"
+			}
+		]
+	},
+	"rotationSet": "PropY",
+	"color": "12c5dc",
+	"box": { "x": 3, "y": 5, "z": 3 },
+	"seat": {
+		"bones": [
+			{ "name": "Hips", "offset": { "x": 0.0, "y": 0.8, "z": 0.4 } },
+			{ "name": "LeftForeArm", "offset": { "x": 1.0, "y": 0.8, "z": 1.8 }, "freeRotation": true },
+			{ "name": "RightForeArm", "offset": { "x": -1.0, "y": 0.8, "z": 1.8 }, "freeRotation": true },
+			{ "name": "LeftLeg", "offset": { "x": 0.8, "y": 0.3, "z": 1.8 }, "freeRotation": true },
+			{ "name": "RightLeg", "offset": { "x": -0.8, "y": 0.3, "z": 1.8 }, "freeRotation": true }
+		],
+		"ragdollFile": "$GAME_DATA/Character/seat_ragdoll.json",
+		"enterAudio": "Seat seated",
+		"exitAudio": "Seat unseated"
+	},
+	"physicsMaterial": "Metal",
+	"sticky": "-Y"
+},
    
    //kAN
    
@@ -166,7 +273,43 @@
 			"physicsMaterial": "Metal",
 			"box": { "x": 1, "y":1, "z": 1 },
 			"sticky": "-Y"
-			}
+			},
+			{
+				"uuid": "8dc25718-8e55-4af3-b5fb-d64d37870791",
+				"renderable": {
+					"lodList": [
+						{
+							"subMeshList": [
+								{
+									"textureList": [
+										"$MOD_DATA/Objects/Textures/DirectorChairKan.png",
+										"$MOD_DATA/Objects/Textures/UniTex_asg.png"
+									],
+									"material": "DifAsg"
+								}
+							],
+							"mesh": "$MOD_DATA/Objects/Mesh/DirectorChair2.obj"
+						}
+					]
+				},
+				"rotationSet": "PropY",
+				"color": "000000",
+				"box": { "x": 3, "y": 5, "z": 3 },
+				"seat": {
+					"bones": [
+						{ "name": "Hips", "offset": { "x": 0.0, "y": 0.8, "z": 0.4 } },
+						{ "name": "LeftForeArm", "offset": { "x": 1.0, "y": 0.8, "z": 1.8 }, "freeRotation": true },
+						{ "name": "RightForeArm", "offset": { "x": -1.0, "y": 0.8, "z": 1.8 }, "freeRotation": true },
+						{ "name": "LeftLeg", "offset": { "x": 0.8, "y": 0.3, "z": 1.8 }, "freeRotation": true },
+						{ "name": "RightLeg", "offset": { "x": -0.8, "y": 0.3, "z": 1.8 }, "freeRotation": true }
+					],
+					"ragdollFile": "$GAME_DATA/Character/seat_ragdoll.json",
+					"enterAudio": "Seat seated",
+					"exitAudio": "Seat unseated"
+				},
+				"physicsMaterial": "Metal",
+				"sticky": "-Y"
+}
    
    
    ]
