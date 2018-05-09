@@ -222,6 +222,32 @@
 	"physicsMaterial": "Metal",
 	"sticky": "-Y"
 },
+{
+	"uuid": "05b480d6-9428-4dab-9c5b-ac8a967c7c61",
+	"renderable": {
+		"lodList": [
+			{
+				"subMeshList": [
+					{
+						"textureList": [
+							"$MOD_DATA/Objects/Textures/hood_ornament_moonbo.png",
+							"$MOD_DATA/Objects/Textures/hood_ornament.png",
+							"$MOD_DATA/Objects/Textures/MoonboLogo_nor.png"
+						],
+						"material": "DifAsgNor"
+					}
+				],
+				"mesh": "$MOD_DATA/Objects/Mesh/hood_ornament_camodo.obj"
+			}
+		]
+	},
+	"rotationSet": "PropY",
+	"density": 250.0,
+	"color": "818181",
+	"physicsMaterial": "Metal",
+	"box": { "x": 1, "y":1, "z": 1 },
+	"sticky": "-Y"
+},
    
    //kAN
    
@@ -309,7 +335,7 @@
 				},
 				"physicsMaterial": "Metal",
 				"sticky": "-Y"
-}
+			}
    
    
    ]
