@@ -93,6 +93,32 @@
 				"physicsMaterial": "Metal",
 				"sticky": "-Y"
 },
+{
+	"uuid": "5d2a5a1d-a5bf-4d99-a532-f41fe38390d5",
+	"renderable": {
+		"lodList": [
+			{
+				"subMeshList": [
+					{
+						"textureList": [
+							"$MOD_DATA/Objects/Textures/MMCrew_mug_moonbo_dif.png",
+							"$MOD_DATA/Objects/Textures/MMCrew_mug_asg.png",
+							"$GAME_DATA/Objects/Textures/decor/obj_decor_mug_nor.tga"
+						],
+						"material": "DifAsgNor"
+					}
+				],
+				"mesh": "$GAME_DATA/Objects/Mesh/decor/obj_decor_mug.fbx"
+			}
+		]
+	},
+	"rotationSet": "PropY",
+	"density": 250.0,
+	"color": "313131",
+	"cylinder": { "diameter": 1, "depth": 1, "margin": 0.1, "axis": "Y" },
+	"sticky": "-Y+Y",
+	"physicsMaterial": "Metal"
+},
    
    
    
@@ -182,6 +208,32 @@
 			"physicsMaterial": "Metal",
 			"sticky": "-Y"
 },
+{
+	"uuid": "4a288c79-aebf-4643-9036-fae1260d1d9f",
+	"renderable": {
+		"lodList": [
+			{
+				"subMeshList": [
+					{
+						"textureList": [
+							"$MOD_DATA/Objects/Textures/MMCrew_mug_scrapman_dif.png",
+							"$MOD_DATA/Objects/Textures/MMCrew_mug_asg.png",
+							"$GAME_DATA/Objects/Textures/decor/obj_decor_mug_nor.tga"
+						],
+						"material": "DifAsgNor"
+					}
+				],
+				"mesh": "$GAME_DATA/Objects/Mesh/decor/obj_decor_mug.fbx"
+			}
+		]
+	},
+	"rotationSet": "PropY",
+	"density": 250.0,
+	"color": "d4d4d4",
+	"cylinder": { "diameter": 1, "depth": 1, "margin": 0.1, "axis": "Y" },
+	"sticky": "-Y+Y",
+	"physicsMaterial": "Metal"
+},
    
    
    //Camodo
@@ -247,6 +299,32 @@
 	"physicsMaterial": "Metal",
 	"box": { "x": 1, "y":1, "z": 1 },
 	"sticky": "-Y"
+},
+{
+	"uuid": "4ed7e6ae-318c-4330-a411-f4a246146e8f",
+	"renderable": {
+		"lodList": [
+			{
+				"subMeshList": [
+					{
+						"textureList": [
+							"$MOD_DATA/Objects/Textures/MMCrew_mug_camodo_dif.png",
+							"$MOD_DATA/Objects/Textures/MMCrew_mug_asg.png",
+							"$GAME_DATA/Objects/Textures/decor/obj_decor_mug_nor.tga"
+						],
+						"material": "DifAsgNor"
+					}
+				],
+				"mesh": "$GAME_DATA/Objects/Mesh/decor/obj_decor_mug.fbx"
+			}
+		]
+	},
+	"rotationSet": "PropY",
+	"density": 250.0,
+	"color": "12c5dc",
+	"cylinder": { "diameter": 1, "depth": 1, "margin": 0.1, "axis": "Y" },
+	"sticky": "-Y+Y",
+	"physicsMaterial": "Metal"
 },
    
    //kAN
@@ -335,7 +413,33 @@
 				},
 				"physicsMaterial": "Metal",
 				"sticky": "-Y"
-			}
+			},
+			{
+				"uuid": "a546c9a5-1e1f-44d0-a514-2dc62de789ab",
+				"renderable": {
+					"lodList": [
+						{
+							"subMeshList": [
+								{
+									"textureList": [
+										"$MOD_DATA/Objects/Textures/MMCrew_mug_kan_dif2.png",
+										"$MOD_DATA/Objects/Textures/MMCrew_mug_asg.png",
+										"$GAME_DATA/Objects/Textures/decor/obj_decor_mug_nor.tga"
+									],
+									"material": "DifAsgNor"
+								}
+							],
+							"mesh": "$GAME_DATA/Objects/Mesh/decor/obj_decor_mug.fbx"
+						}
+					]
+				},
+				"rotationSet": "PropY",
+				"density": 250.0,
+				"color": "000000",
+				"cylinder": { "diameter": 1, "depth": 1, "margin": 0.1, "axis": "Y" },
+				"sticky": "-Y+Y",
+				"physicsMaterial": "Metal"
+	}
    
    
    ]
