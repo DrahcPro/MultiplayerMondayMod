@@ -1,0 +1,446 @@
+{
+   "partList" : [
+   
+   //Moonbo
+   {
+			"uuid": "d54b6ae6-9675-4517-881e-f7a0fc0c27a4", //Moonbo Ball Moon
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList" : [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/MoonboLogo_dif.png",
+									"$MOD_DATA/Objects/Textures/MoonboLogo_asg.png",
+									"$MOD_DATA/Objects/Textures/MoonboLogo_nor.png"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/MoonboMoon.obj"
+					}
+				]
+			},
+			"color": "F1F1F1",
+			"hull": { 
+				"x": 3, "y": 3, "z": 3,
+				"margin": 1.5,
+				"pointList": [
+					{ "x": 0.0, "y": 0.0, "z": 0.0 }
+				]
+			},
+			"rotationSet": "PropFull"
+			},
+			{
+			"uuid": "1890cbba-2677-4aa7-f038-22a48eb2bada",
+			"renderable": {
+				"lodList": [
+						{
+						"subMeshList": [
+								{
+								"textureList": [
+										"$MOD_DATA/Objects/Textures/hood_ornament_moonbo.png",
+										"$MOD_DATA/Objects/Textures/hood_ornament.png",
+										"$MOD_DATA/Objects/Textures/MoonboLogo_nor.png"
+										],
+								"material": "DifAsgNor"
+								}
+								],
+						"mesh": "$MOD_DATA/Objects/Mesh/hood_ornament_moonbo.obj"
+						}
+						]
+					},
+			"rotationSet": "PropY",
+			"density": 250.0,
+			"color": "818181",
+			"physicsMaterial": "Metal",
+			"box": { "x": 1, "y":1, "z": 1 },
+			"sticky": "-Y"
+			},
+			{
+				"uuid": "d11cfae3-1d65-478e-9387-256e363f1018",
+				"renderable": {
+					"lodList": [
+						{
+							"subMeshList": [
+								{
+									"textureList": [
+										"$MOD_DATA/Objects/Textures/DirectorChairMoonbo.png",
+										"$MOD_DATA/Objects/Textures/UniTex_asg.png"
+									],
+									"material": "DifAsg"
+								}
+							],
+							"mesh": "$MOD_DATA/Objects/Mesh/DirectorChair2.obj"
+						}
+					]
+				},
+				"rotationSet": "PropY",
+				"color": "313131",
+				"box": { "x": 3, "y": 5, "z": 3 },
+				"seat": {
+					"bones": [
+						{ "name": "Hips", "offset": { "x": 0.0, "y": 0.8, "z": 0.4 } },
+						{ "name": "LeftForeArm", "offset": { "x": 1.0, "y": 0.8, "z": 1.8 }, "freeRotation": true },
+						{ "name": "RightForeArm", "offset": { "x": -1.0, "y": 0.8, "z": 1.8 }, "freeRotation": true },
+						{ "name": "LeftLeg", "offset": { "x": 0.8, "y": 0.3, "z": 1.8 }, "freeRotation": true },
+						{ "name": "RightLeg", "offset": { "x": -0.8, "y": 0.3, "z": 1.8 }, "freeRotation": true }
+					],
+					"ragdollFile": "$GAME_DATA/Character/seat_ragdoll.json",
+					"enterAudio": "Seat seated",
+					"exitAudio": "Seat unseated"
+				},
+				"physicsMaterial": "Metal",
+				"sticky": "-Y"
+},
+{
+	"uuid": "5d2a5a1d-a5bf-4d99-a532-f41fe38390d5",
+	"renderable": {
+		"lodList": [
+			{
+				"subMeshList": [
+					{
+						"textureList": [
+							"$MOD_DATA/Objects/Textures/MMCrew_mug_moonbo_dif.png",
+							"$MOD_DATA/Objects/Textures/MMCrew_mug_asg.png",
+							"$GAME_DATA/Objects/Textures/decor/obj_decor_mug_nor.tga"
+						],
+						"material": "DifAsgNor"
+					}
+				],
+				"mesh": "$GAME_DATA/Objects/Mesh/decor/obj_decor_mug.fbx"
+			}
+		]
+	},
+	"rotationSet": "PropY",
+	"density": 250.0,
+	"color": "313131",
+	"cylinder": { "diameter": 1, "depth": 1, "margin": 0.1, "axis": "Y" },
+	"sticky": "-Y+Y",
+	"physicsMaterial": "Metal"
+},
+   
+   
+   
+   //ScrapMan
+   {
+   "uuid": "83370e74-2be3-4110-b7a7-3dc242a275c6", //scrapman gear
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList" : [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/scrapman_logo.png",
+									"$MOD_DATA/Objects/Textures/scrapman_logo_asg.png",
+									"$MOD_DATA/Objects/Textures/scrapman_logo_nor.png"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/ScrapManGear.obj"
+					}
+				]
+			},
+			"color": "F1F1F1",
+			"cylinder": { "diameter": 3, "depth": 2, "axis": "Z" },
+			"rotationSet": "PropFull"
+			},
+			{
+										"uuid": "e8f19e16-cc21-4c40-9360-d03aeb3c63cc",
+										"renderable": {
+											"lodList": [
+												{
+													"subMeshList": [
+														{
+															"textureList": [
+																"$MOD_DATA/Objects/Textures/hood_ornament.png",
+																"$MOD_DATA/Objects/Textures/hood_ornament.png",
+																"$MOD_DATA/Objects/Textures/scrapman_logo_nor.png"
+															],
+															"material": "DifAsgNor"
+														}
+													],
+													"mesh": "$MOD_DATA/Objects/Mesh/hood_ornament_scrapman.obj"
+												}
+											]
+										},
+										"rotationSet": "PropY",
+										"density": 250.0,
+										"color": "818181",
+										"physicsMaterial": "Metal",
+										"box": { "x": 1, "y":1, "z": 1 },
+										"sticky": "-Y"
+		},
+		{
+			"uuid": "33685405-da0e-4956-805e-6fff6a3ce0f1",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/DirectorChairScrapMan.png",
+									"$MOD_DATA/Objects/Textures/UniTex_asg.png"
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/DirectorChair2.obj"
+					}
+				]
+			},
+			"rotationSet": "PropY",
+			"color": "d4d4d4",
+			"box": { "x": 3, "y": 5, "z": 3 },
+			"seat": {
+				"bones": [
+					{ "name": "Hips", "offset": { "x": 0.0, "y": 0.8, "z": 0.4 } },
+					{ "name": "LeftForeArm", "offset": { "x": 1.0, "y": 0.8, "z": 1.8 }, "freeRotation": true },
+					{ "name": "RightForeArm", "offset": { "x": -1.0, "y": 0.8, "z": 1.8 }, "freeRotation": true },
+					{ "name": "LeftLeg", "offset": { "x": 0.8, "y": 0.3, "z": 1.8 }, "freeRotation": true },
+					{ "name": "RightLeg", "offset": { "x": -0.8, "y": 0.3, "z": 1.8 }, "freeRotation": true }
+				],
+				"ragdollFile": "$GAME_DATA/Character/seat_ragdoll.json",
+				"enterAudio": "Seat seated",
+				"exitAudio": "Seat unseated"
+			},
+			"physicsMaterial": "Metal",
+			"sticky": "-Y"
+},
+{
+	"uuid": "4a288c79-aebf-4643-9036-fae1260d1d9f",
+	"renderable": {
+		"lodList": [
+			{
+				"subMeshList": [
+					{
+						"textureList": [
+							"$MOD_DATA/Objects/Textures/MMCrew_mug_scrapman_dif.png",
+							"$MOD_DATA/Objects/Textures/MMCrew_mug_asg.png",
+							"$GAME_DATA/Objects/Textures/decor/obj_decor_mug_nor.tga"
+						],
+						"material": "DifAsgNor"
+					}
+				],
+				"mesh": "$GAME_DATA/Objects/Mesh/decor/obj_decor_mug.fbx"
+			}
+		]
+	},
+	"rotationSet": "PropY",
+	"density": 250.0,
+	"color": "d4d4d4",
+	"cylinder": { "diameter": 1, "depth": 1, "margin": 0.1, "axis": "Y" },
+	"sticky": "-Y+Y",
+	"physicsMaterial": "Metal"
+},
+   
+   
+   //Camodo
+   
+   {
+	"uuid": "3c90343b-a240-42b7-9992-befac617a1d6",
+	"renderable": {
+		"lodList": [
+			{
+				"subMeshList": [
+					{
+						"textureList": [
+							"$MOD_DATA/Objects/Textures/DirectorChairCamodo.png",
+							"$MOD_DATA/Objects/Textures/UniTex_asg.png"
+						],
+						"material": "DifAsg"
+					}
+				],
+				"mesh": "$MOD_DATA/Objects/Mesh/DirectorChair2.obj"
+			}
+		]
+	},
+	"rotationSet": "PropY",
+	"color": "12c5dc",
+	"box": { "x": 3, "y": 5, "z": 3 },
+	"seat": {
+		"bones": [
+			{ "name": "Hips", "offset": { "x": 0.0, "y": 0.8, "z": 0.4 } },
+			{ "name": "LeftForeArm", "offset": { "x": 1.0, "y": 0.8, "z": 1.8 }, "freeRotation": true },
+			{ "name": "RightForeArm", "offset": { "x": -1.0, "y": 0.8, "z": 1.8 }, "freeRotation": true },
+			{ "name": "LeftLeg", "offset": { "x": 0.8, "y": 0.3, "z": 1.8 }, "freeRotation": true },
+			{ "name": "RightLeg", "offset": { "x": -0.8, "y": 0.3, "z": 1.8 }, "freeRotation": true }
+		],
+		"ragdollFile": "$GAME_DATA/Character/seat_ragdoll.json",
+		"enterAudio": "Seat seated",
+		"exitAudio": "Seat unseated"
+	},
+	"physicsMaterial": "Metal",
+	"sticky": "-Y"
+},
+{
+	"uuid": "05b480d6-9428-4dab-9c5b-ac8a967c7c61",
+	"renderable": {
+		"lodList": [
+			{
+				"subMeshList": [
+					{
+						"textureList": [
+							"$MOD_DATA/Objects/Textures/hood_ornament_moonbo.png",
+							"$MOD_DATA/Objects/Textures/hood_ornament.png",
+							"$MOD_DATA/Objects/Textures/MoonboLogo_nor.png"
+						],
+						"material": "DifAsgNor"
+					}
+				],
+				"mesh": "$MOD_DATA/Objects/Mesh/hood_ornament_camodo.obj"
+			}
+		]
+	},
+	"rotationSet": "PropY",
+	"density": 250.0,
+	"color": "818181",
+	"physicsMaterial": "Metal",
+	"box": { "x": 1, "y":1, "z": 1 },
+	"sticky": "-Y"
+},
+{
+	"uuid": "4ed7e6ae-318c-4330-a411-f4a246146e8f",
+	"renderable": {
+		"lodList": [
+			{
+				"subMeshList": [
+					{
+						"textureList": [
+							"$MOD_DATA/Objects/Textures/MMCrew_mug_camodo_dif.png",
+							"$MOD_DATA/Objects/Textures/MMCrew_mug_asg.png",
+							"$GAME_DATA/Objects/Textures/decor/obj_decor_mug_nor.tga"
+						],
+						"material": "DifAsgNor"
+					}
+				],
+				"mesh": "$GAME_DATA/Objects/Mesh/decor/obj_decor_mug.fbx"
+			}
+		]
+	},
+	"rotationSet": "PropY",
+	"density": 250.0,
+	"color": "12c5dc",
+	"cylinder": { "diameter": 1, "depth": 1, "margin": 0.1, "axis": "Y" },
+	"sticky": "-Y+Y",
+	"physicsMaterial": "Metal"
+},
+   
+   //kAN
+   
+   {
+			"uuid": "68b6d29b-1eeb-4d84-a788-04c0e17e0061", //kAN can
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList" : [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/kANlogo_dif.png",
+									"$MOD_DATA/Objects/Textures/kANlogo_asg.png",
+									"$MOD_DATA/Objects/Textures/kANlogo_nor.png"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/kANcan.obj"
+					}
+				]
+			},
+			"color": "F1F1F1",
+			"cylinder": { "diameter": 3, "depth": 2, "axis": "Y" },
+			"rotationSet": "PropFull"
+			},
+			{
+			"uuid": "29ccf944-f58e-4eb2-c6d8-276679433198",
+			"renderable": {
+					"lodList": [
+							{
+							"subMeshList": [
+									{
+									"textureList": [
+											"$MOD_DATA/Objects/Textures/hood_ornament_moonbo.png",
+											"$MOD_DATA/Objects/Textures/hood_ornament.png",
+											"$MOD_DATA/Objects/Textures/kANlogo_nor.png"
+											],
+									"material": "DifAsgNor"
+									}
+									],
+							"mesh": "$MOD_DATA/Objects/Mesh/hood_ornament_kan.obj"
+							}
+						]
+					},
+			"rotationSet": "PropY",
+			"density": 250.0,
+			"color": "818181",
+			"physicsMaterial": "Metal",
+			"box": { "x": 1, "y":1, "z": 1 },
+			"sticky": "-Y"
+			},
+			{
+				"uuid": "8dc25718-8e55-4af3-b5fb-d64d37870791",
+				"renderable": {
+					"lodList": [
+						{
+							"subMeshList": [
+								{
+									"textureList": [
+										"$MOD_DATA/Objects/Textures/DirectorChairKan.png",
+										"$MOD_DATA/Objects/Textures/UniTex_asg.png"
+									],
+									"material": "DifAsg"
+								}
+							],
+							"mesh": "$MOD_DATA/Objects/Mesh/DirectorChair2.obj"
+						}
+					]
+				},
+				"rotationSet": "PropY",
+				"color": "000000",
+				"box": { "x": 3, "y": 5, "z": 3 },
+				"seat": {
+					"bones": [
+						{ "name": "Hips", "offset": { "x": 0.0, "y": 0.8, "z": 0.4 } },
+						{ "name": "LeftForeArm", "offset": { "x": 1.0, "y": 0.8, "z": 1.8 }, "freeRotation": true },
+						{ "name": "RightForeArm", "offset": { "x": -1.0, "y": 0.8, "z": 1.8 }, "freeRotation": true },
+						{ "name": "LeftLeg", "offset": { "x": 0.8, "y": 0.3, "z": 1.8 }, "freeRotation": true },
+						{ "name": "RightLeg", "offset": { "x": -0.8, "y": 0.3, "z": 1.8 }, "freeRotation": true }
+					],
+					"ragdollFile": "$GAME_DATA/Character/seat_ragdoll.json",
+					"enterAudio": "Seat seated",
+					"exitAudio": "Seat unseated"
+				},
+				"physicsMaterial": "Metal",
+				"sticky": "-Y"
+			},
+			{
+				"uuid": "a546c9a5-1e1f-44d0-a514-2dc62de789ab",
+				"renderable": {
+					"lodList": [
+						{
+							"subMeshList": [
+								{
+									"textureList": [
+										"$MOD_DATA/Objects/Textures/MMCrew_mug_kan_dif2.png",
+										"$MOD_DATA/Objects/Textures/MMCrew_mug_asg.png",
+										"$GAME_DATA/Objects/Textures/decor/obj_decor_mug_nor.tga"
+									],
+									"material": "DifAsgNor"
+								}
+							],
+							"mesh": "$GAME_DATA/Objects/Mesh/decor/obj_decor_mug.fbx"
+						}
+					]
+				},
+				"rotationSet": "PropY",
+				"density": 250.0,
+				"color": "000000",
+				"cylinder": { "diameter": 1, "depth": 1, "margin": 0.1, "axis": "Y" },
+				"sticky": "-Y+Y",
+				"physicsMaterial": "Metal"
+	}
+   
+   
+   ]
+}

@@ -1,0 +1,161 @@
+{
+    "assetListRenderable": [
+{
+            "col": "$GAME_DATA/Terrain/Collision/Manmade/env_manmade_spawnplatform_col.obj",
+            "name": "env_manmade_spawnplatform",
+            "physics": {
+                "mass": 20000,
+                "material": "Metal"
+            },
+            "renderable": {
+                "lodList": [
+                    {
+                        "maxViewDistance": 200,
+                        "mesh": "$GAME_DATA/Terrain/Mesh/Manmade/env_manmade_spawnplatform.fbx",
+                        "subMeshList": [
+                            {
+                                "custom": {},
+                                "material": "DifAsgNor",
+                                "textureList": [
+                                    "$GAME_DATA/Terrain/Textures/Manmade/env_manmade_spawnplatform_dif.tga",
+                                    "$GAME_DATA/Terrain/Textures/Manmade/env_manmade_spawnplatform_asg.tga",
+                                    "$GAME_DATA/Terrain/Textures/Manmade/env_manmade_spawnplatform_nor.tga"
+                                ]
+                            },
+                            {
+                                "custom": {},
+                                "material": "DifAsgNor",
+                                "textureList": [
+                                    "$MOD_DATA/Textures/env_manmade_spawnplatformlogo3_dif.png",
+                                    "$GAME_DATA/Terrain/Textures/Manmade/env_manmade_spawnplatformlogo_asg.tga",
+                                    "$GAME_DATA/Terrain/Textures/Manmade/env_manmade_spawnplatformlogo_nor.tga"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "maxViewDistance": 2500,
+                        "mesh": "$GAME_DATA/Terrain/Mesh/Manmade/env_manmade_spawnplatform_lod1.fbx",
+                        "subMeshList": [
+                            {
+                                "custom": {},
+                                "material": "DifAsgNor",
+                                "textureList": [
+                                    "$GAME_DATA/Terrain/Textures/Manmade/env_manmade_spawnplatform_dif.tga",
+                                    "$GAME_DATA/Terrain/Textures/Manmade/env_manmade_spawnplatform_asg.tga",
+                      "$GAME_DATA/Terrain/Textures/Manmade/env_manmade_spawnplatform_nor.tga"
+                                ]
+                            },
+                            {
+                                "custom": {},
+                                "material": "DifAsgNor",
+                                "textureList": [
+                                    "$MOD_DATA/Textures/env_manmade_spawnplatformlogo3_dif.png",
+                                    "$GAME_DATA/Terrain/Textures/Manmade/env_manmade_spawnplatformlogo_asg.tga",
+                                    "$GAME_DATA/Terrain/Textures/Manmade/env_manmade_spawnplatformlogo_nor.tga"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "uuid": "e496f0a0-c9b1-4b06-b7e5-63d90f0120ba"
+        },
+        {
+	            "col": "$GAME_DATA/Terrain/Collision/Manmade/env_manmade_billboard01_col.obj",
+	            "defaultColors": {
+	                "stripe": "8ad2d9"
+	            },
+	            "name": "env_manmade_billboard01",
+	            "physics": {
+	                "mass": 20000,
+	                "material": "Metal"
+	            },
+	            "renderable": {
+	                "lodList": [
+	                    {
+	                        "maxViewDistance": 85,
+	                        "mesh": "$GAME_DATA/Terrain/Mesh/Manmade/env_manmade_billboard01.mesh",
+	                        "subMeshList": [
+	                            {
+	                                "custom": {},
+	                                "material": "DifAlphaFlip",
+	                                "textureList": [
+	                                    "$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboardlampshade_dif.tga",
+	                                    "",
+	                                    ""
+	                                ]
+	                            },
+	                            {
+	                                "custom": {
+	                                    "color": "frames"
+	                                },
+	                                "material": "DifAsgNor",
+	                                "textureList": [
+	                                    "$MOD_DATA/Textures/Moonbo_bilboard.png",
+	                                    "$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboard01_asg.tga",
+	                                    "$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboard01_nor.tga"
+	                                ]
+	                            }
+	                        ]
+	                    },
+	                    {
+	                        "maxViewDistance": 250,
+	                        "mesh": "$GAME_DATA/Terrain/Mesh/Manmade/env_manmade_billboard01_lod1.fbx",
+	                        "subMeshList": [
+	                            {
+	                                "custom": {},
+	                                "material": "DifAlphaFlip",
+	                                "textureList": [
+	                                    "$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboardlampshade_dif.tga",
+	                                    "",
+	                                    ""
+	                                ]
+	                            },
+	                            {
+	                                "custom": {
+	                                    "color": "frames"
+	                                },
+	                                "material": "DifAsgNor",
+	                                "textureList": [
+	                                    "$MOD_DATA/Textures/Moonbo_bilboard.png",
+	                                    "$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboard01_asg.tga",
+	                                    "$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboard01_nor.tga"
+	                                ]
+	                            }
+	                        ]
+	                    },
+	                    {
+	                        "maxViewDistance": 2500,
+	                        "mesh": "$GAME_DATA/Terrain/Mesh/Manmade/env_manmade_billboard01_lod2.fbx",
+	                        "subMeshList": [
+	                            {
+	                                "custom": {},
+	                                "material": "DifAlphaFlip",
+	                                "textureList": [
+	                                    "$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboardlampshade_dif.tga",
+	                                    "",
+	                                    ""
+	                                ]
+	                            },
+	                            {
+	                                "custom": {
+	                                    "color": "frames"
+	                                },
+	                                "material": "DifAsgNor",
+	                                "textureList": [
+	                                    "$MOD_DATA/Textures/Moonbo_bilboard.png",
+	                                    "$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboard01_asg.tga",
+	                                    "$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboard01_nor.tga"
+	                                ]
+	                            }
+	                        ]
+	                    }
+	                ]
+	            },
+	            "uuid": "117e6cbd-2c39-4e81-adc8-70f332b2976b"
+        }
+
+
+    ]
+}
